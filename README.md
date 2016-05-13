@@ -37,5 +37,4 @@
 
 效果图：
 
-![](http://7q5er6.com1.z0.glb.clouddn.com/device-2016-05-13-160743.png)
-![](http://7q5er6.com1.z0.glb.clouddn.com/device-2016-05-13-160724.png)
+![](http://7q5er6.com1.z0.glb.clouddn.com/device-2016-05-13-160724.png?imageView/2/w/300/q/90)![](http://7q5er6.com1.z0.glb.clouddn.com/device-2016-05-13-160743.png?imageView/2/w/300/q/90)
