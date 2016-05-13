@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="extContentText" format="string|reference" />
+        <attr name="extContentTextColor" format="color|reference" />
+        <attr name="extContentTextSize" format="dimension|reference" />
+        <attr name="extContentMaxLine" format="integer" />
+        <attr name="extLabelExpandText" format="string|reference" />
+        <attr name="extLabelCollapseText" format="string|reference" />
+        <attr name="extLabelTextColor" format="color|reference" />
+        <attr name="extLabelTextSize" format="dimension|reference" />
+        <attr name="extLabelExpandDrawableLeft" format="reference" />
+        <attr name="extLabelCollapseDrawableLeft" format="reference" />
+        <attr name="extLabelPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

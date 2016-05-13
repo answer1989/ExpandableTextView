@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,10 +8,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.answer.expandabletextview.MainActivity">
+    tools:context=".app.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.answer.expandabletextview.lib.ExpandableTextView
+        android:id="@+id/text_view_expandable"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp"
+        app:extContentMaxLine="5"
+        app:extContentTextColor="#ffc320"
+        app:extContentTextSize="13dp"
+        app:extLabelCollapseDrawableLeft="@drawable/ic_collapse_all"
+        app:extLabelCollapseText="收起全文"
+        app:extLabelExpandDrawableLeft="@drawable/ic_expand_all"
+        app:extLabelExpandText="展开全文"
+        app:extLabelPosition="center"
+        app:extLabelTextColor="#009dff"
+        app:extLabelTextSize="13dp"></com.answer.expandabletextview.lib.ExpandableTextView>
 </RelativeLayout>
